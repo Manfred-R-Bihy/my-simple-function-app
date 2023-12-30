@@ -14,6 +14,18 @@
       "type": "http",
       "direction": "out",
       "name": "res"
+    },
+    {
+      "name": "inputBlob",
+      "type": "blob",
+      "path": "incontainer/{data}.jpg",
+      "direction": "in"
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "path": "outcontainer/{data}-Copy.jpg",
+      "direction": "out"
     }
   ]
 }
